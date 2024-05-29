@@ -1,0 +1,59 @@
+body {
+    background-color: #000;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+h1 {
+    font-size: 36px;
+    color: #f00;
+}
+
+h2 {
+    font-size: 24px;
+    color: #00f;
+}
+
+.scoreboard {
+    margin-bottom: 20px;
+}
+
+.user-score, .computer-score {
+    font-size: 18px;
+}
+
+.rock-button img {
+    width: 250px;
+    height: 250px;
+}
+
+.paper-button img {
+    width: 250px;
+    height: 250px;
+}
+
+.scissors-button img {
+    width: 250px;
+    height: 250px;
+}
+
+.reset-button img {
+    width: 250px;
+    height: 250px;
+}
+
+.user-score {
+    color: green;
+}
+
+.computer-score {
+    color: red;
+}
